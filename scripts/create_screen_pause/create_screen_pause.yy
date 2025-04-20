@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_screen_pause",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_screen_pause",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
