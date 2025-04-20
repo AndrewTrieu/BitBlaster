@@ -32,6 +32,7 @@ The game will automatically launch the start menu. Hit Space to open the tutoria
 | Spells & Spawner | [BDragon1727](https://bdragon1727.itch.io/free-effect-and-bullet-16x16) | 
 | Explosive Crate | [Anokolisa](https://anokolisa.itch.io/free-pixel-art-asset-pack-topdown-tileset-rpg-16x16-sprites) | 
 | Explosion Animation | [Pixel Frog](https://pixelfrog-assets.itch.io/tiny-swords) |
+| Keyboard Icons | [ansdor](https://ansdor.itch.io/button-icons) |
 | Fonts | [Google Fonts](https://fonts.google.com/) |
 | Background Music | [David Renda](https://www.fesliyanstudios.com/royalty-free-music/download/8-bit-adventure/2282) |
 | Hit Sound | [Homemade_SFX](https://pixabay.com/sound-effects/soft-body-impact-295404/) |
