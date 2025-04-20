@@ -22,8 +22,12 @@ if instance_exists(o_player) && !instance_exists(o_screen_pause) {
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	draw_set_font(fnt_Tiny5);
-	draw_text_transformed(_hud_x + 28, _hud_y + 23, string(global.enemyKillCount) , 0.5, 0.5, 0);
-	draw_text_transformed(_hud_x + 49, _hud_y + 23, " / " + string(global.enemyRoomMax), 0.5, 0.5, 0);
+	
+	draw_text_transformed(_hud_x + 28, _hud_y + 23, string(global.kill_count) , 0.5, 0.5, 0);
+	
+	if !global.infinite_mode {
+		draw_text_transformed(_hud_x + 49, _hud_y + 23, " / " + string(global.enemy_room_max), 0.5, 0.5, 0);
+	}
 }
 
 // Draw notification if active

@@ -1,11 +1,3 @@
-if global.first_start {
-	menu_inst = instance_create_depth(0, 0, -10000, o_start_menu)
-}
-
-if global.start_key_pressed && instance_exists(menu_inst) {
-	instance_destroy(menu_inst);
-}
-
 // Get player's hp
 if instance_exists(o_player) {
 	player_hp = o_player.hp;
@@ -21,6 +13,10 @@ if (global.weapon_notification_timer > 0) {
     }
 }
 
-if (global.enemyKillCount >= global.enemyRoomMax) {
+if (global.kill_count >= global.enemy_room_max) {
+	if (global.current_score >= global.high_score) {
+		global.high_score = global.current_score;
+		save_high_score();
+	}
 	instance_create_depth(0, 0, -10000, o_end_screen);
 }

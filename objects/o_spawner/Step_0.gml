@@ -3,8 +3,10 @@ if pause_movement() { exit; }
 timer++;
 
 // Reset when limit reached
-if instance_number(o_parent_enemy) >= global.enemyActiveMax || global.totalEnemiesSpawned >= global.enemyRoomMax {
-	timer = 0;
+if !global.infinite_mode {
+	if instance_number(o_parent_enemy) >= global.enemy_active_max || global.total_enemies_spawned >= global.enemy_room_max {
+		timer = 0;
+	}
 }
 
 // Spawn enemy

@@ -1,14 +1,18 @@
 depth = -9000;
 
-global.first_start = true;
-
 player_hp = 0;
 player_max_hp = 0;
 
-global.enemyRoomMax = 100;
-global.enemyActiveMax = 20;
-global.totalEnemiesSpawned = 0;
-global.enemyKillCount = 0;
+global.enemy_room_max = 100;
+global.enemy_active_max = 20;
+global.total_enemies_spawned = 0;
+global.kill_count = 0;
+
+global.first_start = true;
+global.current_score = 0;
+load_high_score();
+
+global.infinite_mode = false;
 
 // Weapon pickup
 global.weapon_notification = "";

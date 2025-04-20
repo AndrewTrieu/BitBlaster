@@ -9,6 +9,11 @@ var pause_key_pressed = global.pause_key_pressed;
 
 // Pause game
 if pause_key_pressed {
+	if (global.current_score >= global.high_score) {
+		global.high_score = global.current_score;
+		save_high_score();
+	}
+	
 	if !instance_exists(o_pause_menu) {
 		instance_create_depth(0, 0, -10000, o_pause_menu);
 	} else {

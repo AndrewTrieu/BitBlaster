@@ -13,6 +13,10 @@ draw_set_font(fnt_Special_Elite);
 draw_text_transformed(_cam_x + (_cam_w / 2), _cam_y + (_cam_h / 2) - 20, "YOU DIED", 4, 4, 0);
 draw_set_font(fnt_Tiny5);
 draw_text_transformed(_cam_x + (_cam_w / 2),  _cam_y + (_cam_h / 2) + 50, "-< Press any key to resurrect >-", 1, 1, 0);
+
+draw_set_valign(fa_bottom);
+draw_text_transformed(_cam_x + (_cam_w / 2) - 120,  _cam_y + _cam_h - 30, "Current Score: " + string(global.current_score), 0.5, 0.5, 0);
+draw_text_transformed(_cam_x + (_cam_w / 2) + 120,  _cam_y + _cam_h - 30, "High Score: " + string(global.high_score), 0.5, 0.5, 0);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_alpha(1);

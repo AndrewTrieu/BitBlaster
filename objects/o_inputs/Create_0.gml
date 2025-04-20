@@ -9,3 +9,6 @@ global.start_key_pressed = 0;
 global.space_key_pressed = 0;
 global.back_key_pressed = 0;
 global.pause_key_pressed = 0;
+global.shift_key_pressed = 0;
+global.one_key_pressed = 0;
+global.two_key_pressed = 0;
