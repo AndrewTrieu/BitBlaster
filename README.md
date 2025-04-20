@@ -2,7 +2,7 @@
  
 After years studying at the Arcane University, you've returned to Greenhill for summer break - only to find it overrun by the Legion of the Damned. With your small spellbook and quick reflexes, you're the village's last hope against the demonic invasion!
 
-![image](https://github.com/user-attachments/assets/44e09222-3759-47a3-9106-f89fb7579747)
+![image](https://github.com/user-attachments/assets/bf521e7b-9327-47bc-94df-b05a4eaca4e4)
 
 ## Installation & Getting Started
 
