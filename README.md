@@ -14,7 +14,7 @@ After years studying at the Arcane University, you've returned to Greenhill for 
 
 ### Installation
 
-1. Download the latest version from [releases](https://github.com/AndrewTrieu/BitBlaster/releases/tag/latest)
+1. Download the latest version from [releases](https://github.com/AndrewTrieu/BitBlaster/releases)
 2. Right-click the installer and select "Run as administrator"
 3. Follow the on-screen setup wizard
 4. Launch the game from your desktop shortcut or Start menu
